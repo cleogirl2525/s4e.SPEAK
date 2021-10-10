@@ -24,7 +24,7 @@ function setup() {
 } 
 
 function draw() { 
-  drawingContext.shadowBlur = 30;
+  drawingContext.shadowBlur = 15;
   drawingContext.shadowColor = 'white';
   textFont('xxy');
   fill(225, 225, 225);
