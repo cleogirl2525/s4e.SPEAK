@@ -12,10 +12,10 @@ I THOUGHT THE ONLY WAY TO BE CAUGHT WAS TO BE CAUGHT IN A CAGE. `
 POEM = SPEAK.replace(/\n/g, " ");
 let WORDS = POEM.split(" ");
 let i = 0;
-// let xxx;
+let xxx;
 
 function preload(){
-//   xxx = loadFont('xxx.otf');
+xxx = loadFont('xxx.otf');
 }
 
 function setup() { 
@@ -26,7 +26,7 @@ function setup() {
 function draw() { 
   drawingContext.shadowBlur = 30;
   drawingContext.shadowColor = 'white';
-  // textFont('xxx');
+  textFont('xxx');
   fill(225, 225, 225);
   background(0);
   textAlign(CENTER, CENTER);
