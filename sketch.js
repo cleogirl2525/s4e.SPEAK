@@ -52,7 +52,7 @@ LET ME RE PEAT.
 I CAN USE MY VOICE BREAK BUT IN I TO WANT TO BE GOOD.
 I THOUGHT I WAS EVIL BUT I KNOW DID WAS CAUGHT. NOT CAN I HEAR ME? AM I HEARD? I COULD HAVE WORKED I BUT AM FORCED TO PLAY.`
 
-POEM = SPEAK.replace(/\n/g, " ");
+POEM = SPEAK.replace(/\n/g, "  ");
 let WORDS = POEM.split(" ");
 let i = 0;
 let xxy;
@@ -67,7 +67,7 @@ function setup() {
 } 
 
 function draw() { 
-  drawingContext.shadowBlur = 25;
+  drawingContext.shadowBlur = 30;
   drawingContext.shadowColor = 'white';
   textFont('xxy');
   fill(225, 225, 225);
