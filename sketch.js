@@ -19,7 +19,7 @@ function preload(){
 }
 
 function setup() { 
-  createCanvas(800, 800);
+  createCanvas(1920, 1080);
   frameRate(5);
 } 
 
