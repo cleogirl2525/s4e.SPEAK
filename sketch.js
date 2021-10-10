@@ -12,22 +12,21 @@ I THOUGHT THE ONLY WAY TO BE CAUGHT WAS TO BE CAUGHT IN A CAGE. `
 POEM = SPEAK.replace(/\n/g, " ");
 let WORDS = POEM.split(" ");
 let i = 0;
-let XXX;
+let Azonix;
 
 function preload(){
-  font = loadFont('XXX.otf');
+  font = loadFont('Azonix.otf');
 }
 
 function setup() { 
   createCanvas(800, 800,);
   frameRate(5);
-  
-  drawingContext.shadowBlur = 30;
-  drawingContext.shadowColor = 'white';
 } 
 
 function draw() { 
-  textFont('XXX');
+  drawingContext.shadowBlur = 30;
+  drawingContext.shadowColor = 'white';
+  textFont('Azonix');
   fill(225, 225, 225);
   background(0);
   textAlign(CENTER, CENTER);
