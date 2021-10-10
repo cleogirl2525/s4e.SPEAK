@@ -62,12 +62,12 @@ xxx = loadFont('xxy.otf');
 }
 
 function setup() { 
-  createCanvas(1366, 784);
+  createCanvas(1920, 1080);
   frameRate(5);
 } 
 
 function draw() { 
-  drawingContext.shadowBlur = 10;
+  drawingContext.shadowBlur = 15;
   drawingContext.shadowColor = 'white';
   textFont('xxy');
   fill(225, 225, 225);
