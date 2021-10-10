@@ -73,7 +73,7 @@ function draw() {
   fill(225, 225, 225);
   background(0);
   textAlign(CENTER, CENTER);
-  textSize(240);
+  textSize(340);
   let onScreen = WORDS[i];
   text(onScreen, width/2, height/2);
   i++;
