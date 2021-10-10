@@ -19,12 +19,12 @@ xxx = loadFont('xxy.otf');
 }
 
 function setup() { 
-  createCanvas(1920, 1080);
+  createCanvas(1366, 784);
   frameRate(5);
 } 
 
 function draw() { 
-  drawingContext.shadowBlur = 15;
+  drawingContext.shadowBlur = 10;
   drawingContext.shadowColor = 'white';
   textFont('xxy');
   fill(225, 225, 225);
