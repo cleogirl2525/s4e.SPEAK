@@ -15,7 +15,7 @@ let i = 0;
 let xxx;
 
 function preload(){
-  font = loadFont('xxx.otf');
+  xxx = loadFont('xxx.otf');
 }
 
 function setup() { 
