@@ -71,7 +71,7 @@ function draw() {
   drawingContext.shadowColor = 'white';
   textFont('XXT');
   fill(225, 225, 225);
-  select('canvas').elt.style.letterSpacing = "50px";
+  select('canvas').elt.style.letterSpacing = "20px";
   background(0);
   textAlign(CENTER, CENTER);
   textSize(340);
