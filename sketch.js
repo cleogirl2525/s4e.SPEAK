@@ -55,10 +55,10 @@ I THOUGHT I WAS EVIL BUT I KNOW DID WAS CAUGHT. NOT CAN I HEAR ME? AM I HEARD? I
 POEM = SPEAK.replace(/\n/g, "  ");
 let WORDS = POEM.split(" ");
 let i = 0;
-let xxy;
+let XXY;
 
 function preload(){
-xxx = loadFont('xxy.otf');
+xxx = loadFont('XXY.otf');
 }
 
 function setup() { 
@@ -69,7 +69,7 @@ function setup() {
 function draw() { 
   drawingContext.shadowBlur = 55;
   drawingContext.shadowColor = 'white';
-  textFont('xxy');
+  textFont('XXY');
   fill(225, 225, 225);
   select('canvas').elt.style.letterSpacing = "20px";
   background(0);
