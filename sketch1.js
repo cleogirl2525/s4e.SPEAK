@@ -9,11 +9,10 @@ ROTATE
 REMAIN
 RETRAIN
 REHASH
+RELEARN
 REFRESH
 RECACHE
-REFREEZE
 REFRAIN
-RELEARN
 RELEASE
 
 PERCH 
@@ -36,7 +35,7 @@ xxx = loadFont('XXY.otf');
 
 function setup() { 
   createCanvas(1920, 1080);
-  frameRate(2.5);
+  frameRate(2);
 } 
 
 function draw() { 
