@@ -39,7 +39,7 @@ xxx = loadFont('XXY.otf');
 
 function setup() { 
   createCanvas(1620, 680);
-  frameRate(3);
+  frameRate(2);
 } 
 
 function draw() { 
