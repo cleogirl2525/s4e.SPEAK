@@ -38,7 +38,7 @@ xxx = loadFont('XXY.otf');
 }
 
 function setup() { 
-  createCanvas(1920, 1080);
+  createCanvas(1620, 680);
   frameRate(3);
 } 
 
@@ -50,7 +50,7 @@ function draw() {
   select('canvas').elt.style.letterSpacing = "20px";
   background(0);
   textAlign(CENTER, CENTER);
-  textSize(340);
+  textSize(250);
   let onScreen = WORDS[i];
   text(onScreen, width/2, height/2);
   i++;
