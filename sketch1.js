@@ -22,6 +22,7 @@ PLAY
 PERUSE
 PERRY
 POSE
+REPEAT
 `
 
 POEM = SPEAK.replace(/\n/g, "  ");
